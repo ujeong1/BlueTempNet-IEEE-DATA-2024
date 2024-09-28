@@ -1,7 +1,7 @@
 ﻿# BlueTempNet-IEEE-DATA-2024
-If you use the data or code in your project, please cite the following paper:
+If you use <code>data</code> or </code>code</code> in your project, please cite the following paper:
 
-IEEE Data Descriptions (IEEE DATA)'24 ([PDF](https://arxiv.org/abs/2407.17451)
+IEEE Data Descriptions (IEEE DATA)'24 ([PDF](https://arxiv.org/abs/2407.17451))
 
 ```bash
 @article{jeong2024bluetempnet,
