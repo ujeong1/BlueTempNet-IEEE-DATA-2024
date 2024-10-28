@@ -3,13 +3,17 @@ If you use <code>data</code> or <code>code</code> in your project, please cite t
 
 IEEE Data Descriptions (IEEE DATA)'24 ([PDF](https://arxiv.org/abs/2407.17451))
 
-```bash
-@article{jeong2024bluetempnet,
-  title={BlueTempNet: A Temporal Multi-network Dataset of Social Interactions in Bluesky Social},
+```
+@ARTICLE{10706594,
   author={Jeong, Ujun and Jiang, Bohan and Tan, Zhen and Bernard, H Russell and Liu, Huan},
-  journal={IEEE Data Descriptions},
-  year={2024}
-}
+  journal={IEEE Data Descriptions}, 
+  title={Descriptor: A Temporal Multi-network Dataset of Social Interactions in Bluesky Social (BlueTempNet)}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/IEEEDATA.2024.3474640}}
+
 
 ```
 
