@@ -1,7 +1,9 @@
 ﻿# BlueTempNet-IEEE-DATA-2024
 If you use <code>data</code> or <code>code</code> in your project, please cite the following paper:
 
-IEEE Data Descriptions (IEEE DATA)'24 ([PDF](https://ieeexplore.ieee.org/document/10706594))
+Please find our paper "Descriptor: A Temporal Multi-network Dataset of Social Interactions in Bluesky Social (BlueTempNet)"
+
+at IEEE Data Descriptions (IEEE DATA)'24 ([PDF](https://ieeexplore.ieee.org/document/10706594))
 
 ```
 @ARTICLE{10706594,
