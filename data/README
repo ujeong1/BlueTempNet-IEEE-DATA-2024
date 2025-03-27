@@ -1,0 +1,32 @@
+## Network Files
+
+Our networks are saved in GEXF as follows:
+
+- **graph_dimension1.gexf**: Feed member interaction network saved in DiGraph object, where an edge has attributes `sign` and `time` and a node is Feed member.
+
+- **graph_dimension2.gexf**: Feed creator interaction network saved in DiGraph object, where an edge has attributes `sign` and `time`, and a node is Feed creator.
+
+- **graph_dimension3.gexf**: Community interaction network saved in a Graph object. Each node has a node attribute that can be a member, creator, or feed. Each edge has an edge attribute, either `join` or `create`, along with a `time` attribute.
+
+- **multi_graph.gexf**: This is a MultiGraph object that integrates the three network dimensions. To facilitate ease of use, all undirected edges in the multigraph have been converted to bidirectional edges.
+
+---
+
+## Metadata Files
+
+Metadata is saved in CSV as follows:
+
+- **user_metadata.csv**
+  - Node Index (consistent across all GEXF files)
+  - Anonymized ID (decoded after ID request review)
+  - Number of Followers
+  - Number of Following
+  - Number of Posts
+
+- **feed_metadata.csv**
+  - Node Index (consistent across all GEXF files)
+  - Feed URI (a unique identifier for profiles specific to the Bluesky Feed)
+  - Display Name of Feed
+  - Description of Feed
+  - Creator of Feed (given as Anonymized ID)
+  - Number of Likes on Feed
